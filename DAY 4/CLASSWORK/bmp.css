@@ -1,0 +1,24 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: red;
+    border : 5px dotted blue;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin: 10px 10px 15px 200px;
+    margin: 30px 35px;
+    margin: 50px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding: 30px 50px 60px 80px;
+    padding: 50px 70px;
+    padding: 70px;
+
+
+}

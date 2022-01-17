@@ -1,0 +1,59 @@
+
+*{
+    font-family: georgia;
+    background-color: green;
+}
+#intro{
+    color: purple;
+    text-align: center;
+    background-color: red;
+}
+
+.sub-heading{
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+}
+
+[title="first"]{
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+
+:link{
+    color: red;
+}
+
+:visited{
+    color: pink;
+}
+
+a:hover{
+  color: white;  
+}
+
+a::after{
+  content: "I am the after guy";  
+  font-size: 30px;
+}
+
+h1::before{
+    content: "This ";
+}
+
+li:first-child{
+   font-size: 30px;
+}
+
+p::first-line{
+    color: white;
+}
+
+p::first-letter{
+    font-size: 40px;
+}
+
+li:nth-child(3){
+    font-size: 50px;
+}
