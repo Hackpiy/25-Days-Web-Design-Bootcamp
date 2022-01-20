@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.container{
+    width: 50%;
+    min-height: 500px;
+    border: 5px solid #000;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.container .header{
+    width: 100%;
+    height: 50px;
+    border: 3px solid red;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.container .section-blue{
+    width: 100%;
+    min-height: 100px;
+    border: 3px solid blue;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.container .section-blue .box{
+    width: 45%;
+    height: 150px;
+    border: 2px solid blue;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container .section-green{
+    width: 100%;
+    min-height: 100px;
+    border: 3px solid green;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.container .section-green .box{
+    width: 30%;
+    min-height: 150px;
+    border: 2px solid green;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container .section-green .box.second{
+   width: 67%;
+}
+
+.container .section-green .box.second .child{
+    width: 45%;
+    height: 70px;
+    border: 2px solid green;
+    display: inline-block;
+    vertical-align: top;
+    margin: 3px;
+}
+
+.container .section-green .box.second .child.three{
+   width: 98%;
+}
+
+
+.container .section-yellow{
+    width: 100%;
+    min-height: 100px;
+    border: 3px solid yellow;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container .section-yellow .box{
+    width: 98%;
+    min-height: 50px;
+    border: 2px solid yellow;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.container .section-yellow .box .child1{
+    width: 21%;
+    min-height: 30px;
+    border: 2px solid yellow;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.container .section-yellow .box .child2{
+    width: 27%;
+    min-height: 80px;
+    border: 2px solid yellow;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+}
