@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0px;
+        }
+
+        .box{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            border:3px solid blue;
+            animation-name: Box-Roler;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            left: 0px;
+            top: 0px;
+        }
+
+        @keyframes Box-Roler{
+          0%{
+              background-color: red;
+              left: 300px;
+              top: 400px;
+          }
+
+          50%{
+            background-color: green;
+              left: 600px;
+              top: 600px;
+              border-radius: 40px;
+          }
+
+          75%{
+            background-color: yellow;
+            left: 900px;
+              top: 0px;
+          }
+
+          100%{
+              background-color: purple;
+              left: 0px;
+              top: 0px;
+          }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
